@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <!-- START META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="HoOChat" />
+    <meta name="keywords" content="HoOChat,Chat" />
+    <meta name="author" content="loay kharsa " />
+    <!-- END META TAGS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/fave/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/fave/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/fave/favicon-16x16.png">
+    <link rel="manifest" href="./images/fave/site.webmanifest">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS FILES -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/scss/style.css" />
+    <!-- TITLE -->
+    <title>HoOoChat Application</title>
+</head>
+
+<body>
+    <!-- START HEADER SECTION -->
+    <section class="header fixed-top ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+
+                <a class="navbar-brand" href="./index-rtl.html">
+                    <span>HoO</span>Chat
+                    <img src="./images/logo/logo21.png" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-lang="home" aria-current="page" href="#slider">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-lang="keyfeatures" href="#key">مميزات التطبيق</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-lang="appshot" href="#app">التطبيق</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-lang="testimonials" href="#testi">اراء العملاء</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-lang="download" href="#download">تحميل</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                العربيه <img src="./images/langs/arabic.png" alt="">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="./index-rtl.html">العربي <img src="./images/langs/arabic.png" alt=""></a></li>
+                              <li><a class="dropdown-item" href="../index.html">انجليزي<img src="./images/langs/english.png" alt=""></a></li>
+                            </ul>
+                          </li>   
+       
+                        <li class="try">
+                            <a href="#">
+                                <button>حاول مجانا</button>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="slider" id="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 details">
+                    <div class="choice-app">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>#1 تطبيق اختيار المحررين لعام 2023</p>
+                    </div>
+                    <h1>أفضل التطبيق لأسلوب حياتك الحديث</h1>
+                    <p class="small">يمكنك زيادة الإنتاجية باستخدام تطبيق مهام بسيط. التطبيق لإدارة الشخصية الخاصة بك
+                        الميزانيات.</p>
+                    <div class="buttons">
+                        <button>حاول مجانا</button>
+                        <button> <i class="fa-solid fa-play"></i> شاهد فيديو</button>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center app-slide">
+                    <img src="./images/slider/Home_mobile.png" alt="Application">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END HEADER SECTION -->
+
+    <!-- START TRUSTES SECTION   -->
+    <div class="trusted text-center pt-5 pb-5">
+        <div class="container">
+            <h3 class="pt-5 pb-5">موثوق بها من قبل شركات مثل</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="./images/clients/client_1.png" alt="client_1">
+                        </div>
+                        <div class="item">
+                            <img src="./images/clients/client_2.png" alt="client_2">
+                        </div>
+                        <div class="item">
+                            <img src="./images/clients/client_3.png" alt="client_3">
+                        </div>
+                        <div class="item">
+                            <img src="./images/clients/client_4.png" alt="client_4">
+                        </div>
+                        <div class="item">
+                            <img src="./images/clients/client_5.png" alt="client_5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END TRUSTES SECTION   -->
+
+    <!-- START APP FEATURE SECTION   -->
+    <div class="app-feature" id="key">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="prim-img" src="./images/features/app_feature.png" alt="app_feature">
+                </div>
+                <div class="col-md-6 right-side">
+                    <h2>ميزات التطبيقات الرائعة</h2>
+                    <p>يمكنك زيادة الإنتاجية باستخدام تطبيق مهام بسيط. التطبيق لإدارة ميزانياتك الشخصية.</p>
+                    <div class="feats">
+                        <div class="feats-item">
+                            <div class="feat-img text-center">
+                                <img class="item-img-1" src="./images/features/app_icon1.png" alt="app_icon">
+                            </div>
+                            <div class="feat-details">
+                                <h3 class="title-1">أداء سريع</h3>
+                                <p>قم بإجراء اختبارات الدم الخاصة بك في المنزل واجمع عينة من دمك
+                                    الاختبارات.</p>
+                            </div>
+
+                        </div>
+                        <div class="feats-item">
+                            <div class="feat-img text-center">
+                                <img class="item-img-2" src="./images/features/app_icon2.png" alt="app_icon">
+                            </div>
+                            <div class="feat-details">
+                                <h3 class="title-2">النماذج الأولية </h3>
+                                <p>قم بإجراء اختبارات الدم الخاصة بك في المنزل واجمع عينة من دمك
+                                    الاختبارات.</p>
+                            </div>
+
+                        </div>
+                        <div class="feats-item">
+                            <div class="feat-img text-center">
+                                <img class="item-img-3" src="./images/features/app_icon3.png" alt="app_icon">
+                            </div>
+                            <div class="feat-details">
+                                <h3 class="title-1">تحرير المتجهات</h3>
+                                <p>قم بإجراء اختبارات الدم الخاصة بك في المنزل واجمع عينة من دمك
+                                    الاختبارات.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- START APP FEATURE SECTION   -->
+
+    <!-- START SMART JACKPOINTS -->
+
+    <div class="smart-jackpots">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="jackpots">الجوائز الذكية التي قد تحبها في أي وقت وفي أي مكان</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="rise">
+                        أدى ظهور الأجهزة المحمولة إلى تغيير الطريقة التي نستهلك بها المعلومات بالكامل والعالم
+                        معظم القنوات ذات الصلة مثل الفيسبوك.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/smart jack/smartjack_icon1.png" alt="smartjack_icon1">
+                    <h3 class="smartjack-title-1">الدفعات التلقائية</h3>
+                    <p>قم بإجراء اختبارات الدم الخاصة بك في المنزل واجمع عينة من أخبار اختبارات الدم الخاصة بك.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/smart jack/smartjact_icon2.png" alt="smartjack_icon2">
+                    <h3 class="smartjack-title-2">تأثير الشبكة</h3>
+                    <p>قم بإجراء اختبارات الدم الخاصة بك في المنزل واجمع عينة من أخبار اختبارات الدم الخاصة بك. </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/smart jack/smartjact_icon3.png" alt="smartjack_icon3">
+                    <h3 class="smartjack-title-3">طريقة مكافآت أكبر</h3>
+                    <p>قم بإجراء اختبارات الدم الخاصة بك في المنزل واجمع عينة من أخبار اختبارات الدم الخاصة بك. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- START APP SCREEN SHOTS -->
+    <div class="app-screenshot" id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="app-title text-center">
+                        <h2>لقطات شاشة لتطبيقات الهاتف المحمول</h2>
+                        <p>أدى ظهور الأجهزة المحمولة إلى تغيير الطريقة التي نستهلك بها المعلومات بالكامل والعالم
+                            معظم القنوات ذات الصلة مثل الفيسبوك.</p>
+                    </div>
+                    <div class="owl-carousel owl-theme owl-two">
+                        <div class="item">
+                            <img src="./images/appshot/1 splash_screen.png" alt="screenshot1">
+                        </div>
+                        <div class="item">
+                            <img src="./images/appshot/2 login_screen.jpeg" alt="screenshot2">
+                        </div>
+                        <div class="item">
+                            <img src="./images/appshot/3 Hom_screen.png" alt="screenshot3">
+                        </div>
+                        <div class="item">
+                            <img src="./images/appshot/4 chatbot_screen.jpg" alt="screenshot4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END APP SCREEN SHOTS -->
+    <!-- START TESTIMONIAL SECTION -->
+    <div class="testimonial" id="testi">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/testi/meet_client.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2>تلبية رضا العملاء باستخدام المنتج</h2>
+                    <p>أدى ظهور الأجهزة المحمولة إلى تغيير الطريقة التي نستهلك بها. القنوات المهمة مثل الفيسبوك</p>
+
+                    <swiper-container class="mySwiper" pagination="false" autoplay:2500>
+                        <swiper-slide>
+
+                            <div class="servay">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testi-head">
+                                <h3>سهل الاستخدام وقابل للتخصيص</h3>
+                            </div>
+                            <div class="testi-content">
+                                <p>ضع على الطاولة استراتيجيات البقاء المربحة للجانبين لضمان الهيمنة الاستباقية. في
+                                    نهاية اليوم، والمضي قدمًا، هو الوضع الطبيعي الجديد الذي تطور من الجيل X
+                                    على المدرج متجهًا نحو حل سحابي مبسط. أنشأها المستخدم
+                                    سيكون للمحتوى في الوقت الفعلي نقاط اتصال متعددة لنقل الأعمال إلى الخارج.
+                                </p>
+
+                            </div>
+                            <div class="testi-account">
+                                <img src="./images/testi/meet_img.png" alt="client-img">
+                                <div class="account-details">
+                                    <h4>زولتان نيميث</h4>
+                                    <span>الرئيس التنفيذي لشركة Pixler Lab</span>
+                                </div>
+
+                            </div>
+
+                        </swiper-slide>
+
+                        <swiper-slide>
+
+                            <div class="servay">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testi-head">
+                                <h3>سهل الاستخدام وقابل للتخصيص</h3>
+                            </div>
+                            <div class="testi-content">
+                                <p>ضع على الطاولة استراتيجيات البقاء المربحة للجانبين لضمان الهيمنة الاستباقية. في
+                                    نهاية اليوم، والمضي قدمًا، هو الوضع الطبيعي الجديد الذي تطور من الجيل X
+                                    على المدرج متجهًا نحو حل سحابي مبسط. أنشأها المستخدم
+                                    سيكون للمحتوى في الوقت الفعلي نقاط اتصال متعددة لنقل الأعمال إلى الخارج.
+                                </p>
+
+                            </div>
+                            <div class="testi-account">
+                                <img src="./images/testi/meet_img.png" alt="client-img">
+                                <div class="account-details">
+                                    <h4>زولتان نيميث</h4>
+                                    <span>الرئيس التنفيذي لشركة Pixler Lab</span>
+                                </div>
+
+                            </div>
+
+                        </swiper-slide>
+                        <swiper-slide>
+
+                            <div class="servay">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testi-head">
+                                <h3>سهل الاستخدام وقابل للتخصيص</h3>
+                            </div>
+                            <div class="testi-content">
+                                <p>ضع على الطاولة استراتيجيات البقاء المربحة للجانبين لضمان الهيمنة الاستباقية. في
+                                    نهاية اليوم، والمضي قدمًا، هو الوضع الطبيعي الجديد الذي تطور من الجيل X
+                                    على المدرج متجهًا نحو حل سحابي مبسط. أنشأها المستخدم
+                                    سيكون للمحتوى في الوقت الفعلي نقاط اتصال متعددة لنقل الأعمال إلى الخارج.
+                                </p>
+
+                            </div>
+                            <div class="testi-account">
+                                <img src="./images/testi/meet_img.png" alt="client-img">
+                                <div class="account-details">
+                                    <h4>زولتان نيميث</h4>
+                                    <span>الرئيس التنفيذي لشركة Pixler Lab</span>
+                                </div>
+
+                            </div>
+
+                        </swiper-slide>
+                        <swiper-slide>
+
+                            <div class="servay">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testi-head">
+                                <h3>سهل الاستخدام وقابل للتخصيص</h3>
+                            </div>
+                            <div class="testi-content">
+                                <p>ضع على الطاولة استراتيجيات البقاء المربحة للجانبين لضمان الهيمنة الاستباقية. في
+                                     نهاية اليوم، والمضي قدمًا، هو الوضع الطبيعي الجديد الذي تطور من الجيل X
+                                     على المدرج متجهًا نحو حل سحابي مبسط. أنشأها المستخدم
+                                     سيكون للمحتوى في الوقت الفعلي نقاط اتصال متعددة لنقل الأعمال إلى الخارج.
+                                </p>
+
+                            </div>
+                            <div class="testi-account">
+                                <img src="./images/testi/meet_img.png" alt="client-img">
+                                <div class="account-details">
+                                    <h4>زولتان نيميث</h4>
+                                    <span>الرئيس التنفيذي لشركة Pixler Lab</span>
+                                </div>
+
+                            </div>
+
+                        </swiper-slide>
+                        <swiper-slide>
+
+                            <div class="servay">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testi-head">
+                                <h3>سهل الاستخدام وقابل للتخصيص</h3>
+                            </div>
+                            <div class="testi-content">
+                                <p>ضع على الطاولة استراتيجيات البقاء المربحة للجانبين لضمان الهيمنة الاستباقية. في
+                                     نهاية اليوم، والمضي قدمًا، هو الوضع الطبيعي الجديد الذي تطور من الجيل X
+                                     على المدرج متجهًا نحو حل سحابي مبسط. أنشأها المستخدم
+                                     سيكون للمحتوى في الوقت الفعلي نقاط اتصال متعددة لنقل الأعمال إلى الخارج.
+                                </p>
+
+                            </div>
+                            <div class="testi-account">
+                                <img src="./images/testi/meet_img.png" alt="client-img">
+                                <div class="account-details">
+                                    <h4>زولتان نيميث</h4>
+                                    <span>الرئيس التنفيذي لشركة Pixler Lab</span>
+                                </div>
+
+                            </div>
+
+                        </swiper-slide>
+
+                    </swiper-container>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- END TESTIMONIAL SECTION -->
+
+    <!-- START DOWNLOAD APP SECTION -->
+    <div class="download-app pt-5" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class=" pb-4 ">قم بتنزيل تطبيقنا الآن! </h2>
+                    <p class=" pb-4 "> أدى ظهور الأجهزة المحمولة إلى تغيير الطريقة التي نستهلك بها المعلومات بالكامل
+                        القنوات الأكثر أهمية في العالم مثل الفيسبوك. </p>
+                    <div class="downloads">
+                        <a href="#">
+                            <img src="./images/download app/google_play.png" alt="google-play">
+                        </a>
+                        <a href="#">
+                            <img src="./images/download app/apple_store.png" alt="app-store">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="download-image" src="./images/download app/download_img.png" alt="download-image">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- END DOWNLOAD APP SECTION -->
+
+    <!-- STARAT FOOTER SECTION  -->
+    <footer class="text-center">
+        <div class="container">
+            <h5><span>HoO</span>Chat</h5>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a aria-current="page" href="./index.html">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="#key">مميزات التطبيق</a>
+                            </li>
+                            <li>
+                                <a href="#app">التطبيق</a>
+                            </li>
+                            <li>
+                                <a href="#testi">اراء العملاء</a>
+                            </li>
+                            <li>
+                                <a href="#download">تحميل</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>حقوق الطبع والنشر HoOChat 2024.&COPY; جميع الحقوق محفوظة</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION  -->
+
+    <!-- START SCROLL-TOP -->
+    <div class="scroll-top" id="scroll">
+        <i class="fa-solid fa-circle-chevron-up"></i>
+    </div>
+
+    <div class="loading-page" id="loading">
+        <p><span>HoO</span>Chat</p>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+        integrity="sha512-nhY06wKras39lb9lRO76J4397CH1XpRSLfLJSftTeo3+q2vP7PaebILH9TqH+GRpnOhfAGjuYMVmVTOZJ+682w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="./assets/js/plugins.js"></script>
+</body>
+
+</html>
